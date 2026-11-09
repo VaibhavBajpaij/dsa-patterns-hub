@@ -1,0 +1,25 @@
+name: DSA Solutions Verification
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Pattern Tests
+        run: |
+          python 01-two-pointers/two_sum_sorted.py
+          python 01-two-pointers/container_with_most_water.py
+          python 02-sliding-window/longest_substring_no_repeats.py
+          python 03-fast-slow-pointers/linked_list_cycle.py
