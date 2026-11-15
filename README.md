@@ -28,6 +28,8 @@ Each solution provides:
 | 02 | **Sliding Window** | Expand & shrink window to track sub-arrays/sub-strings | $O(N)$ Time, $O(K)$ Space | Max Subarray of Size K, Longest Substring |
 | 03 | **Fast & Slow Pointers** | Pointers advancing at different speeds (Floyd's Cycle) | $O(N)$ Time, $O(1)$ Space | Linked List Cycle, Middle of List, Happy Number |
 | 04 | **Binary Search Variants** | Halving search space on monotonic conditions | $O(\log N)$ Time, $O(1)$ Space | Rotated Sorted Array, Search 2D Matrix |
+| 05 | **Monotonic Stack** | Maintaining monotonic invariant for next greater/smaller element | $O(N)$ Time, $O(N)$ Space | Daily Temperatures, Next Greater Element |
+| 06 | **Top K Elements** | Using Min/Max Heap to maintain subset of K elements | $O(N \log K)$ Time, $O(K)$ Space | Kth Largest Element, Top K Frequent |
 | 05 | **Tree Traversals (DFS/BFS)** | Recursive depth exploration & level-by-level queue | $O(V + E)$ Time | Invert Tree, Level Order, Max Depth |
 
 ---
