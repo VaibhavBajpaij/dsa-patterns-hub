@@ -47,6 +47,8 @@ dsa-patterns-hub/
 │   └── longest_substring_no_repeats.py
 ├── 03-fast-slow-pointers/
 │   └── linked_list_cycle.py
+├── 04-binary-search/
+│   └── search_rotated_array.py
 └── README.md
 ```
 

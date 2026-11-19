@@ -23,3 +23,4 @@ jobs:
           python 01-two-pointers/container_with_most_water.py
           python 02-sliding-window/longest_substring_no_repeats.py
           python 03-fast-slow-pointers/linked_list_cycle.py
+          python 04-binary-search/search_rotated_array.py
